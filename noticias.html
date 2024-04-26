@@ -37,6 +37,11 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="portada-movil d-md-none">
+          <a class="navbar-logo " href="index.html">
+            <img src="./assets/img/logo-entornasol.png" alt="logotipo Entornasol" width="160" height="auto">
+          </a>
+        </div>
         <div class="collapse navbar-collapse me-3" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
@@ -57,8 +62,8 @@
                 Servicios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Pedagogía Terapéutica</a></li>
-                <li><a class="dropdown-item" href="servicios.html">Capacitaciones</a></li>
+                <li><a class="dropdown-item" href="servicios.html">Pedagogía Terapéutica</a></li>
+                <li><a class="dropdown-item" href="servicios.html#talleres">Capacitaciones</a></li>
                 <!-- <li><a class="dropdown-item" href="#">Acompañamiento</a></li>
                 <li><a class="dropdown-item" href="#">Calendario</a></li> -->
                 <li><a class="dropdown-item" href="#">Servicios Complementarios</a>
@@ -82,15 +87,15 @@
               </ul>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle fw-bolder text-info" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
+              <a class="nav-link dropdown-toggle fw-bolder text-info" href="#" id="navbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
                 Noticias y Multimedia
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Noticias</a></li>
                 <li><a class="dropdown-item" href="noticias.html#testimonios">Testimonios</a></li>
-                <li><a class="dropdown-item" href="noticias.html#reseña">Reseña Histórica</a></li>
-                <!-- <li><a class="dropdown-item" href="#">Temas de Interés</a></li> -->
+                <li><a class="dropdown-item" href="noticias.html">Reseña Histórica</a></li>
+                <li><a class="dropdown-item" href="noticias.html#objetivos-valores">Objetivos y Valores</a></li>
                 <li><a class="dropdown-item" href="#">Recursos Multimedia</a>
                   <ul>
                     <li><a class="dropdown-item" href="noticias.html" rel="noopener noreferrer">Redes Sociales</a>
@@ -121,62 +126,71 @@
   </header>
 
   <main>
-    <section class="row container-fluid hero-noticias py-5 my-5">
-      <div class="col-md-5 hero-noticias mt-5 pt-5">
+    <section id="noticias-desktop" class="row container-fluid hero-instagram py-5 my-5">
+      <div class="col-md-5 hero-instagram mt-5 pt-5">
         <h1 class="titulo-hero">Síguenos en Instagram</h1>
-        <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><button type="button" class="btn boton-rosa mt-5">AQUÍ<i class="fa-solid fa-arrow-pointer ms-3"></i></button></a>
-
-      </div>
-      <div class="col-md-7 mt-3">
-        <img src="./assets/img/instagram.png" alt="Fundación Entornasol" class="w-100">
-      </div>
+        <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><button
+          type="button" class="btn boton-rosa mt-5">AQUÍ<i class="fa-solid fa-arrow-pointer ms-3"></i></button></a>
+        </div>
+        <div class="col-md-7 mt-3">
+          <a href="https://www.instagram.com/fundacionentornasol/" target="_blank">
+            <img src="./assets/img/instagram.png" alt="Fundación Entornasol" class="w-100">
+          </a>
+        </div>
     </section>
 
+    <section id="noticias-movil" class="row container-fluid hero-instagram my-5">
+      <div class="col-md-5 hero-instagram mt-5">
+        <h1 class="titulo-hero">Síguenos en Instagram</h1>
+      </div>
+      <div class="col-md-7 mt-3">
+        <a href="https://www.instagram.com/fundacionentornasol/" target="_blank">
+          <img src="./assets/img/instagram.png" alt="Fundación Entornasol" class="w-100">
+        </a>
+      </div>
+      <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><button
+        type="button" class="btn boton-rosa mt-5">AQUÍ<i class="fa-solid fa-arrow-pointer ms-3"></i></button></a>
+    </section>
     <section class="card-instagram py-5 px-3">
       <div class="card-group">
         <div class="card m-3">
-          <img src="./assets/img/card1-instagram.png" class="card-img-top" alt="Instagram Entornasol">
+          <img src="./assets/img/card1-instagram.png" class="card-img-top w-100" alt="Instagram Entornasol">
           <div class="card-body">
             <h5 class="card-title">Bosque Sensorial</h5>
             <p class="card-text">Experiencia para jóvenes autistas.</p>
           </div>
           <div class="card-footer">
-            <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><button type="button" class="btn boton-blue my-2">Ver más AQUÍ<i class="fa-solid fa-arrow-pointer ms-3"></i></button></a>
+            <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><button
+                type="button" class="btn boton-blue my-2">Ver más AQUÍ<i
+                  class="fa-solid fa-arrow-pointer ms-3"></i></button></a>
           </div>
         </div>
         <div class="card m-3">
-          <img src="./assets/img/card2-instagram.png" class="card-img-top" alt="Instagram Entornasol">
+          <img src="./assets/img/card2-instagram.png" class="card-img-top w-100" alt="Instagram Entornasol">
           <div class="card-body">
             <h5 class="card-title">Moby Dick</h5>
             <p class="card-text">Teatro de sombras: trabajo unipersonal.</p>
           </div>
           <div class="card-footer">
-            <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><button type="button" class="btn boton-blue my-2">Ver más AQUÍ<i class="fa-solid fa-arrow-pointer ms-3"></i></button></a>
+            <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><button
+                type="button" class="btn boton-blue my-2">Ver más AQUÍ<i
+                  class="fa-solid fa-arrow-pointer ms-3"></i></button></a>
           </div>
         </div>
         <div class="card m-3">
-          <img src="./assets/img/card3-instagram.png" class="card-img-top" alt="Instagram Entornasol">
+          <img src="./assets/img/card3-instagram.png" class="card-img-top w-100" alt="Instagram Entornasol">
           <div class="card-body">
             <h5 class="card-title">Invitación</h5>
             <p class="card-text">Para jóvenes del espectro autista entre 15 y 25 años.</p>
           </div>
           <div class="card-footer">
-            <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><button type="button" class="btn boton-blue my-2">Ver más AQUÍ<i class="fa-solid fa-arrow-pointer ms-3"></i></button></a>
+            <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><button
+                type="button" class="btn boton-blue my-2">Ver más AQUÍ<i
+                  class="fa-solid fa-arrow-pointer ms-3"></i></button></a>
           </div>
         </div>
       </div>
     </section>
-
-    <!-- <section class="container-fluid portada-movil">
-      <div class="d-flex justify-content-end">
-        <img src="./assets/img/instagram.png" alt="Fundación Entornasol" class="w-75">
-      </div>
-      <div class="parrafo-hero-movil">
-        <h1 class="titulo-hero-movil">Síguenos en Instagram</h1>
-        <button type="button" class="btn boton-rosa">AQUÍ</button>
-      </div>
-      
-    </section> -->
 
     <section id="testimonios" class="articulo py-5">
       <div class="row m-5">
@@ -185,32 +199,50 @@
           <img src="./assets/img/testimonio.png" alt="Fundación Entornasol: Artículo" class="w-100">
         </div>
         <div class="col-md-6 pt-5">
-          <p class="texto">"Llegamos a este lindo proyecto por una conocida, que siempre hablaba de unos talleres para niños con TEA que tenían relación con el agua, la tierra, los árboles y la naturaleza en general.
-            Mis dos niños, Joaquín y Mateo, se unieron en el mes de enero y desde el día uno ¡les encanto!... El lugar, las tías, los amigos. A pesar de que no tienen lenguaje, lo demostraban con la alegría con que llegaban a casa.
-            Recorrían el bosque, jugaban con tierra, agua, barro, palitos, fueron a la laguna a bañarse, cosa que les encanta ¡Lo pasaban increíble! Llegaban como unos monos, pero felices y eso es lo importante.
+          <p class="texto">"Llegamos a este lindo proyecto por una conocida, que siempre hablaba de unos talleres para
+            niños con TEA que tenían relación con el agua, la tierra, los árboles y la naturaleza en general.
+            Mis dos niños, Joaquín y Mateo, se unieron en el mes de enero y desde el día uno ¡les encanto!... El lugar,
+            las tías, los amigos. A pesar de que no tienen lenguaje, lo demostraban con la alegría con que llegaban a
+            casa.
+            Recorrían el bosque, jugaban con tierra, agua, barro, palitos, fueron a la laguna a bañarse, cosa que les
+            encanta ¡Lo pasaban increíble! Llegaban como unos monos, pero felices y eso es lo importante.
             Las tías son un amor todas, muy cariñosas y con mucho que entregar a los niños.
             Muy profesionales en cuanto a enseñanzas y como niñas pequeñas para jugar con ellos.</p>
-            <p class="texto">Recomiendo al 100% esta experiencia, ya que muchas veces para nuestros niños no existen estos talleres y éste es una maravilla. Lo que enseñan, el amor que entregan y la felicidad de nuestros niños es un conjunto de cosas que encontramos en Tea Time."</p>
-              <p class="texto fst-italic"><span class="fw-bold">(Fernanda: </span> Mamá de Joaquín (11 años) y Mateo (4 años). Fernanda está con nosotras desde el inicio con sus dos hijos a quienes hemos acompañado, visto crecer y superar desafíos, como la adolescencia de Joaquín, lo que nos invitó a desarrollar más herramientas.)</p>
+          <p class="texto">Recomiendo al 100% esta experiencia, ya que muchas veces para nuestros niños no existen estos
+            talleres y éste es una maravilla. Lo que enseñan, el amor que entregan y la felicidad de nuestros niños es
+            un conjunto de cosas que encontramos en Tea Time."</p>
+          <p class="texto fst-italic"><span class="fw-bold">(Fernanda: </span> Mamá de Joaquín (11 años) y Mateo (4
+            años). Fernanda está con nosotras desde el inicio con sus dos hijos a quienes hemos acompañado, visto crecer
+            y superar desafíos, como la adolescencia de Joaquín, lo que nos invitó a desarrollar más herramientas.)</p>
           <a href="index.html"><button type="button" class="btn boton-sepia m-3">Volver a Incio AQUÍ</button></a>
         </div>
       </div>
       <div class="row m-5">
         <div class="col-md-6 pt-5">
-          <p class="texto">“Junto con saludarlas afectuosamente y con mucho agradecimiento. La presente tiene como objetivo dar un apoyo completo en su labor profesional, desarrollo y apoyo a nuestros niños. Como por todos es sabido, los niños con Trastorno del Espectro Autista (TEA) tienen muy pocos lugares de desarrollo lúdico de actividades y menos que sean gratuitos. En TEA TIME, TIEMPO DE CRESER encontramos un lugar bello, con personas agradables, con ganas de ayudar, enseñar, apoyar, comprender, entender con mucho cariño y dedicación a nuestro hijo. Sin mencionar que fue en forma gratuita, lo que no se da en forma habitual en nuestra realidad.</p>
-            <p class="texto">Sólo me quedan palabras de agradecimiento y esperando que se abran nuevos talleres en beneficio de mi hijo y de otros niños. Les deseo el mejor de los éxitos y seguir contando con su apoyo. Un gran abrazo."</p>
-              <p class="texto fst-italic"><span class="fw-bold">(Graciela Galindo Vega: </span> 
-                Graciela es mamá de uno de los niños que asistieron a nuestras actividades durante el desarrollo de nuestro programa piloto, co-financiado por Corfo y que alcanzó alrededor de cincuenta familias beneficiarias, entre participación en talleres y actividades de difusión o capacitación.)</p>
+          <p class="texto">“Junto con saludarlas afectuosamente y con mucho agradecimiento. La presente tiene como
+            objetivo dar un apoyo completo en su labor profesional, desarrollo y apoyo a nuestros niños. Como por todos
+            es sabido, los niños con Trastorno del Espectro Autista (TEA) tienen muy pocos lugares de desarrollo lúdico
+            de actividades y menos que sean gratuitos. En TEA TIME, TIEMPO DE CRESER encontramos un lugar bello, con
+            personas agradables, con ganas de ayudar, enseñar, apoyar, comprender, entender con mucho cariño y
+            dedicación a nuestro hijo. Sin mencionar que fue en forma gratuita, lo que no se da en forma habitual en
+            nuestra realidad.</p>
+          <p class="texto">Sólo me quedan palabras de agradecimiento y esperando que se abran nuevos talleres en
+            beneficio de mi hijo y de otros niños. Les deseo el mejor de los éxitos y seguir contando con su apoyo. Un
+            gran abrazo."</p>
+          <p class="texto fst-italic"><span class="fw-bold">(Graciela Galindo Vega: </span>
+            Graciela es mamá de uno de los niños que asistieron a nuestras actividades durante el desarrollo de nuestro
+            programa piloto, co-financiado por Corfo y que alcanzó alrededor de cincuenta familias beneficiarias, entre
+            participación en talleres y actividades de difusión o capacitación.)</p>
           <a href="index.html"><button type="button" class="btn boton-sepia m-3">Volver a Incio AQUÍ</button></a>
         </div>
         <div class="col-md-6 pt-5">
-          <img src="./assets/img/testimonio2.png" alt="Fundación Entornasol: Artículo" width="700">
+          <img src="./assets/img/testimonio2.png" alt="Fundación Entornasol: Artículo" class="w-100">
         </div>
       </div>
     </section>
 
-    <section id="reseña" class="articulo py-3">
-      <div class="row py-5 m-5">
+    <section id="reseña" class="reseña-desktop py-3">
+      <div class="row pt-5 m-5">
         <div class="col-md-7">
           <h3 class="titulo-parrafo text-center mb-5">¿Quiénes somos?</h3>
           <p class="texto">Somos una organización sin fines de lucro, creada en diciembre de 2022, que apoya a niñas,
@@ -219,63 +251,155 @@
             apoyo. Contamos con una metodología de intervención única en la región y el país, basada en pedagogía
             terapéutica holística, integrada al medio social y ecológico.
           </p>
-          <p class="texto">Entregamos a las familias un espacio de convivencia respetuoso, donde encuentran educación y terapia, de
+          <p class="texto">Entregamos a las familias un espacio de convivencia respetuoso, donde encuentran educación y
+            terapia, de
             forma que las niñas y niños disfrutan la vida, jugando y explorando desde sus intereses, junto a un equipo
             transdisciplinario que entrega en conjunto los apoyos necesarios, a través de jornadas pedagógicas
             terapéuticas en el agua (Balneario Laguna Chicha de San Pedro de la Paz) y bosque (recorridos y actividades
             alrededor de la Laguna Grande de San Pedro de La Paz), juegos sensoriales, movimiento y artes en el Vagón de
             Tren ubicado en Parque Laguna Grande de San Pedro de La Paz.</p>
-            <p class="texto">Las familias que confían en nosotras, han encontrado un espacio donde sus hijos e hijas son felices y reciben sus
-              terapias con amor en cada acción y experiencia pedagógica.</p>
+          <p class="texto">Las familias que confían en nosotras, han encontrado un espacio donde sus hijos e hijas son
+            felices y reciben sus
+            terapias con amor en cada acción y experiencia pedagógica.</p>
           <h3 id="tea-time" class="titulo-parrafo text-center pt-3 mb-5">El comienzo: TEA Time</h3>
-          <p class="texto">
-            Entornasol nace y es desarrollado desde 2020 bajo el alero del TEA Time, Tiempo de CreSer ejecutado por la
-            OTEC Acciona-T SpA, con apoyo del Comité de Desarrollo Productivo Regional, Corfo Biobío a través de la
-            línea de Innovación Social. Actualmente es accionada por FUNDACIÓN ENTORNASOL.
-          </p>
-          <p class="texto">Nace de 3 historias de vida
-            de mujeres que se encuentran un 14 de febrero del año 2019, en una fiesta del amor en concepción, región del
-            Bío Bio Patricia Escobar madre de una niña autista, educadora somática, Patricia Roa Ingeniera civil madre
-            de Mateo niño autista y Magdalena Inzunza, Educadora Diferencial, madre, tía y hermana de personas autistas.
-          </p>
-          <p class="texto">Patricias se conocían por una amiga en común que las reunió para generar algún espacio como
-            after school
-            para la infancia autista, después de que Patricia Roa se inspirara en su experiencia con su hijo Mateo,
-            donde no era valorado y aceptado en entornos educativos tradicionales.</p>
-          <p class="texto">Patricia Escobar conoce a Magda, conversando en este espacio el 14 de F donde magdalena busca
-            espacios de educación libres y amorosos para
-            sus hijos y aprender para emprender con el propio. Es ahí cuando se abren oportunidades de postular a
-            proyectos y crear un espacio especializado en autismo.</p>
-          <p class="texto">Ganan proyecto de innovacion social que las acompañó
-            por un periodo determinado y con el apoyo de comunidades, como municipalidad de san pedro de la paz han
-            logrado espacios mágicos para accionar su quehacer para y con la comunidad autista.</p>
+          <p class="texto">Nuestra organización nace desde la necesidad de abrir opciones para la infancia autista en edad escolar, cuando dos amigas y madres de niños autistas toman en sus manos la tarea de crear espacios donde sus hijos reciban todas las atenciones en un solo lugar. Sueñan con un espacio idóneo, adaptado a las necesidades y talentos de ellos.</p>
+          <p class="texto">Convocadas por este impulso, convergen personas y organizaciones con vocación de mejorar el mundo para la educación. Uniendo convicción y talento de profesionales de áreas de educación, salud e ingenierías. Mujeres, madres de familias neurodiversas, invitan a educadoras, terapeutas y emprendedores, desarollando una Iniciativa de Innovación Social en 2019, co-financiada por Corfo y el Comité de Desarrollo Productivo Regional: TEA Time, Tiempo de CreSer.</p>
+          <p class="texto">Este proyecto busca, aportar un espacio único para la educación y terapias de niños y niñas autistas. Abriendo el camino para crear entornos especializados, adecuados, que interactúan con su entorno social y ambiental. Ampliando la gama de opciones existentes para las familias que conviven con el autismo, y abre la brecha para las semillas de Entornasol. </p>
+          <p class="texto">Ejecutado en varias etapas, entre mayo de 2020 y abril de 2023 por la OTEC Acciona-T SpA. Y en alianza con organizaciones locales como Municipalidad de San Pedro de la Paz, Centro Cultural, otras organizaciones locales, educativas y sociales, y con la colaboración y mentoría de profesionales destacados en Chile y otros países.  Junto con es desarrollo de la propuesta pedagógica desarrollamos capacitación, divulgación y asociatividad.</p>
           <h3 id="el-trencito" class="titulo-parrafo text-center pt-3 my-5">El Trencito</h3>
           <p class="texto">
-            En el año 2020 la Municipaidad de San Pedro de la Paz nos facilitó el icónico trencito ubicado frente al
-            Parque Laguna Grande para desarrollar nuestro programa TEA Time con el objetivo de crear un espacio
-            complementario para la educación y terapias de niños en edad escolar del espectro autista y neuro-diverso.
+            Nuestro espacio físico está emplazado en un vagón de tren frente a Parque Laguna Grande y sala sensorial en Balneario de Laguna Chica de San Pedro de la Paz, Región del Bío Bio, insertos en “aulas vivas”, el espacio abierto en entornos naturales como bosques, lagunas, parques y barrios.
           </p>
+          <p class="texto">Fue en el año 2020 que la Municipaidad de San Pedro de la Paz nos facilitó este icónico Trencito para desarrollar nuestro programa TEA Time con el objetivo de crear un espacio
+            complementario para la educación y terapias de niños en edad escolar del espectro autista y neuro-diverso.</p>
           <p class="texto">
             La rutina para los pequeños, separados en jornadas, va desde jugar en el vagón del trencito hasta terapia
             con caballos, arte lana, biohuerta, cocina sensorial, juegos en el agua y la práctica de stand up paddle.
           </p>
           <h3 id="la-fundacion" class="titulo-parrafo text-center pt-3 my-5">La Fundación</h3>
-          <p class="texto"> Somos una organización sin fines de lucro, creada en diciembre de 2022, que apoya a niñas,
-            niños y jóvenes autistas con un trabajo sostenido desde 2020. Hemos creado espacios adecuados y únicos para
+          <p class="texto">Desde el inicio, en este caminar juntas en torno al sol, como madres, profesionales y personas neurodiversas, fuimos conscientes de la necesidad de conformar una organización que de sustento a nuestra propuesta y que, a la vez, promueva el desarrollo profesional, así como el intercambio entre organizaciones, permeando el mundo con la riqueza de la neurodiversidad y la convivencia.
+          </p>
+          <p class="texto"> Así fue como, en diciembre de 2022, creamos la Fundacón Entornasol, una organización sin fines de lucro, que apoya a niñas,
+            niños y jóvenes autistas. Hemos desarrollado espacios adecuados y únicos para
             la infancia autista, de diferente y variadas necesidades de apoyo. Contamos con una metodología de
             intervención única en la región y el país, basada en pedagogía terapéutica holística, integrada al medio
             social y ecológico.
           </p>
-          <p class="texto">
-            Entregamos a las familias un espacio de convivencia respetuoso, donde sus hijos e hijas son felices y
-            reciben sus terapias con amor en cada acción y experiencia pedagógica. Queremos que las niñas y niños
-            disfrutan la vida, jugando y explorando desde sus intereses, junto a un equipo transdisciplinario que
-            entrega en conjunto los apoyos necesarios, a través de jornadas pedagógicas terapéuticas en el agua
-            (Balneario Laguna Chicha de San Pedro de la Paz) y bosque (recorridos y actividades alrededor de la Laguna
-            Grande de San Pedro de La Paz), juegos sensoriales, movimiento y artes en vagón de tren ubicado en parque
-            laguna grande SPP.
+          <p class="texto">El equipo raíz, co-fundadoras de Entornasol, lo conforman Patricia Roa, Patricia Escobar y Magdalena Inzunza, aportando desde distintas profesiones y experiencia, inspiradas por las propias vivencias personales con el autismo y la neurodivergencia. Vamos avanzando juntas adquiriendo más comprensión y experiencia, nos une la certeza de que es urgente y necesario nutrir nuestro espacio enriquecer una comunidad de familias, permear el entorno con nuestras propuestas, visibilizando las brechas que existen para la verdadera convivencia. Nos motiva seguir abriendo espacios, aportando consciencia y co-crear espacios para que todos los niños y niñas puedan crecer felices, valorando sus diferencias, desplegando sus destrezas. 
           </p>
-          <h3 class="titulo-parrafo text-center pt-3 my-5">Estatutos</h3>
+          <h3 id="objetivos-valores" class="titulo-parrafo text-center pt-3 my-5">Nuestros Objetivos</h3>
+          <ol>
+            <li class="texto">Promover creatividad e innovación en educación y terapia, aportando valor a la sociedad en su conjunto.
+            </li>
+            <li class="texto">Crear ambientes armónicos de conexión, meta cognición, aprendizaje y valoración de nuestras potencialidades y fortalezas humanas. 
+            </li>
+            <li class="texto">Vincular a los niños, niñas y jóvenes  autistas con sí mismo, con otros y con su entorno natural.
+            </li>
+            <li class="texto">Aportar al desarrollo profesional, en co-creación con organizaciones privadas y públicas. 
+            </li>
+            <li class="texto">Aprender a conocer, aprender a ser, aprender a hacer, aprender a convivir.</li>
+          </ol>
+          <h1 class="titulo-parrafo text-center pt-3 my-5">Nuestros Valores</h1>
+        <ul>
+          <li class="texto">El amor: Es importante que todo el trabajo se haga desde el amor, lo que nos permite fortalecer emociones como la empatía y la compasión (sentir con el otro).
+          </li>
+          <li class="texto">Crear entornos apropiados para niños y niñas espectro autista desde un modelo ecológico pedagógico, terapéutico, holístico, articulando el desarrollo emocional, cognitivo, social y ambiental. 
+          </li>
+          <li class="texto">Comunidad: El sentirse parte de un grupo humano que comparte valores, visiones y objetivos comunes es fundamental para el trabajo dentro del programa. 
+          </li>
+          <li class="texto">Aprendizaje: Es relevante partir de la base de que todo es un constante aprendizaje, y continuamente estamos aprendiendo de nuestros pares y de los mismos niños. 
+          </li>
+          <li class="texto">Coherencia y Armonía: El trabajo en unidad y colaboración es fundamental, esto implica valorar al otro, tanto su trabajo como sus ideas. Se busca lograr un equilibrio, que esté presente en espacios, organización de los tiempos, etc.
+          </li>
+          <li class="texto">Respeto y Afecto: Cultivamos la amabilidad, brindar atención y cariño; saber escuchar y ser respetuosos de los espacios y de las preferencias de los niños. 
+          </li>
+          <li class="texto">Expresar y comunicar libremente las emociones, sensaciones e intereses.
+          </li>
+          <li class="texto">Atención consciente: Una atención y escucha que parte de nosotras mismas. Hacia la preocupación de conocer a los niños, desde llamarlos por sus nombres a conocer sus historias de vida y a sus familias.</li>
+          <li class="texto">Impecabilidad: En nuestros espacios cuidamos lo sutil. Esto incluye gestos y palabras. Cuidando la comunicación clara, y la mantención del espacio, el cual debe estar siempre limpio y organizado. 
+          </li>
+        </ul>
+          <!-- <h3 class="titulo-parrafo text-center pt-3 my-5">Estatutos</h3>
+          <h5 class="texto fw-bold ">TITULO I</h5>
+          <h6 class="texto fw-bold ">Del Nombre, Objeto, Domicilio y Duración</h6>
+          <p class="texto">
+            <span class="fw-bold">Artículo Primero: </span> Créase una Fundación de Beneficencia, sin fines de lucro,
+            regida por las normas del Título
+            XXXIII del Libro Primero del Código Civil, por las disposiciones contenidas en la Ley N° 20.500, sobre
+            Asociaciones y Participación Ciudadana en la Gestión Pública, o por la disposición legal que la reemplace y
+            por los presentes estatutos, que tendrá como domicilio la comuna de San Pedro de La Paz, Provincia de
+            Concepción de la Región Bio-Bio, sin perjuicio de las sedes, filiales y establecimientos que pueda formar en
+            otros puntos del país.
+          </p>
+          <p class="texto"><span class="fw-bold">Artículo Segundo: </span> El nombre de la Fundación será “FUNDACIÓN
+            ENTORNASOL”.
+          </p> 
+          <a href="#"><button type="button" class="btn boton-sepia mt-3">Descargar estatutos
+              AQUÍ</button></a>-->
+        </div>
+        <div id="film-reseña" class="col-md-5 text-end">
+          <img src="./assets/img/story-film.png" alt="Fundación Entornasol: Artículo" class="w-75">
+        </div>
+      </div>
+    </section>
+
+    <section id="reseña-dos" class="reseña-movil d-md-none py-3">
+      <div class="row m-5">
+        <div class="col-md-7">
+          <h3 class="titulo-parrafo text-center mb-5">¿Quiénes somos?</h3>
+          <p class="texto">Somos una organización sin fines de lucro, creada en diciembre de 2022, que apoya a niñas,
+            niños y jóvenes autistas con un trabajo sostenido desde 2020.
+            Hemos creado espacios adecuados y únicos para la infancia autista, de diferente y variadas necesidades de
+            apoyo. Contamos con una metodología de intervención única en la región y el país, basada en pedagogía
+            terapéutica holística, integrada al medio social y ecológico.
+          </p>
+          <p class="texto">Entregamos a las familias un espacio de convivencia respetuoso, donde encuentran educación y
+            terapia, de
+            forma que las niñas y niños disfrutan la vida, jugando y explorando desde sus intereses, junto a un equipo
+            transdisciplinario que entrega en conjunto los apoyos necesarios, a través de jornadas pedagógicas
+            terapéuticas en el agua (Balneario Laguna Chicha de San Pedro de la Paz) y bosque (recorridos y actividades
+            alrededor de la Laguna Grande de San Pedro de La Paz), juegos sensoriales, movimiento y artes en el Vagón de
+            Tren ubicado en Parque Laguna Grande de San Pedro de La Paz.</p>
+          <p class="texto">Las familias que confían en nosotras, han encontrado un espacio donde sus hijos e hijas son
+            felices y reciben sus
+            terapias con amor en cada acción y experiencia pedagógica.</p>
+          <h3 id="tea-time" class="subtitulo text-center pt-3 my-5">El comienzo: TEA Time</h3>
+          <p class="texto">Nuestra organización nace desde la necesidad de abrir opciones para la infancia autista en edad escolar, cuando dos amigas y madres de niños autistas toman en sus manos la tarea de crear espacios donde sus hijos reciban todas las atenciones en un solo lugar. Sueñan con un espacio idóneo, adaptado a las necesidades y talentos de ellos.</p>
+          <p class="texto">Convocadas por este impulso, convergen personas y organizaciones con vocación de mejorar el mundo para la educación. Uniendo convicción y talento de profesionales de áreas de educación, salud e ingenierías. Mujeres, madres de familias neurodiversas, invitan a educadoras, terapeutas y emprendedores, desarollando una Iniciativa de Innovación Social en 2019, co-financiada por Corfo y el Comité de Desarrollo Productivo Regional: TEA Time, Tiempo de CreSer.</p>
+          <p class="texto">Este proyecto busca, aportar un espacio único para la educación y terapias de niños y niñas autistas. Abriendo el camino para crear entornos especializados, adecuados, que interactúan con su entorno social y ambiental. Ampliando la gama de opciones existentes para las familias que conviven con el autismo, y abre la brecha para las semillas de Entornasol. </p>
+          <p class="texto">Ejecutado en varias etapas, entre mayo de 2020 y abril de 2023 por la OTEC Acciona-T SpA. Y en alianza con organizaciones locales como Municipalidad de San Pedro de la Paz, Centro Cultural, otras organizaciones locales, educativas y sociales, y con la colaboración y mentoría de profesionales destacados en Chile y otros países.  Junto con es desarrollo de la propuesta pedagógica desarrollamos capacitación, divulgación y asociatividad.</p>
+          <h3 id="el-trencito" class="subtitulo text-center pt-3 my-5">El Trencito</h3>
+          <p class="texto">
+            Nuestro espacio físico está emplazado en un vagón de tren frente a Parque Laguna Grande y sala sensorial en Balneario de Laguna Chica de San Pedro de la Paz, Región del Bío Bio, insertos en “aulas vivas”, el espacio abierto en entornos naturales como bosques, lagunas, parques y barrios.
+          </p>
+          <p class="texto">Fue en el año 2020 que la Municipaidad de San Pedro de la Paz nos facilitó este icónico Trencito para desarrollar nuestro programa TEA Time con el objetivo de crear un espacio
+            complementario para la educación y terapias de niños en edad escolar del espectro autista y neuro-diverso.</p>
+          <p class="texto">
+            La rutina para los pequeños, separados en jornadas, va desde jugar en el vagón del trencito hasta terapia
+            con caballos, arte lana, biohuerta, cocina sensorial, juegos en el agua y la práctica de stand up paddle.
+          </p>
+          <h3 id="la-fundacion" class="subtitulo text-center pt-3 my-5">La Fundación</h3>
+          <p class="texto">Desde el inicio, en este caminar juntas en torno al sol, como madres, profesionales y personas neurodiversas, fuimos conscientes de la necesidad de conformar una organización que de sustento a nuestra propuesta y que, a la vez, promueva el desarrollo profesional, así como el intercambio entre organizaciones, permeando el mundo con la riqueza de la neurodiversidad y la convivencia.
+          </p>
+          <p class="texto"> Así fue como, en diciembre de 2022, creamos la Fundacón Entornasol, una organización sin fines de lucro, que apoya a niñas,
+            niños y jóvenes autistas. Hemos desarrollado espacios adecuados y únicos para
+            la infancia autista, de diferente y variadas necesidades de apoyo. Contamos con una metodología de
+            intervención única en la región y el país, basada en pedagogía terapéutica holística, integrada al medio
+            social y ecológico.
+          </p>
+          <h3 class="subtitulo text-center pt-3 my-5">Nuestros Objetivos</h3>
+          <ol>
+            <li class="texto">Promover creatividad e innovación en educación y terapia, aportando valor a la sociedad en su conjunto.
+            </li>
+            <li class="texto">Crear ambientes armónicos de conexión, meta cognición, aprendizaje y valoración de nuestras potencialidades y fortalezas humanas. 
+            </li>
+            <li class="texto">Vincular a los niños, niñas y jóvenes  autistas con sí mismo, con otros y con su entorno natural.
+            </li>
+            <li class="texto">Aportar al desarrollo profesional, en co-creación con organizaciones privadas y públicas. 
+            </li>
+            <li class="texto">Aprender a conocer, aprender a ser, aprender a hacer, aprender a convivir.</li>
+          </ol>
+          <!-- <h3 class="subtitulo text-center pt-3 my-5">Estatutos</h3>
           <h5 class="texto fw-bold ">TITULO I</h5>
           <h6 class="texto fw-bold ">Del Nombre, Objeto, Domicilio y Duración</h6>
           <p class="texto">
@@ -291,10 +415,10 @@
             ENTORNASOL”.
           </p>
           <a href="#"><button type="button" class="btn boton-sepia mt-3">Descargar estatutos
-              AQUÍ</button></a>
+              AQUÍ</button></a> -->
         </div>
-        <div class="col-md-5 text-end ">
-          <img src="./assets/img/story-film.png" alt="Fundación Entornasol: Artículo">
+        <div class="col-md-5 text-center mt-5">
+          <img src="./assets/img/story-film.png" alt="Fundación Entornasol" width="200">
         </div>
       </div>
     </section>
@@ -308,51 +432,55 @@
           <a href="#" class="enlaces-noticias">
             <img src="./assets/img/infinito.png" alt="Fundación Entornasol: Enlaces" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="https://ernestoreano.pe/no-existe-una-epidemia-del-autismo-si-la-neurodivergencia-ii/" class="recomendados-link">No existe una “epidemia” del autismo, sí la neurodivergencia</a></h4>
+          <h4 class="title-article my-3"><a
+              href="https://ernestoreano.pe/no-existe-una-epidemia-del-autismo-si-la-neurodivergencia-ii/"
+              class="recomendados-link">No existe una “epidemia” del autismo, sí la neurodivergencia</a></h4>
         </div>
         <div class="col-md-4 text-center">
           <a href="#" class="enlaces-noticias">
             <img src="./assets/img/ojo.png" alt="Fundación Entornasol: Enlaces" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="https://ernestoreano.pe/la-ceguera-mental-hacia-la-diversidad/" target="_blank" class="recomendados-link">La “ceguera mental” hacia la diversidad</a></h4>
+          <h4 class="title-article my-3"><a href="https://ernestoreano.pe/la-ceguera-mental-hacia-la-diversidad/"
+              target="_blank" class="recomendados-link">La “ceguera mental” hacia la diversidad</a></h4>
         </div>
         <div class="col-md-4 text-center">
           <a href="mision.html#espacio" class="enlaces-noticias">
             <img src="./assets/img/gluten.png" target="_blank" alt="Fundación Entornasol: Enlaces" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="https://ernestoreano.pe/autismo-desmontando-la-dieta-milagrosa/" target="_blank" class="recomendados-link">Autismo: desmontando la dieta “milagrosa”</a>
+          <h4 class="title-article my-3"><a href="https://ernestoreano.pe/autismo-desmontando-la-dieta-milagrosa/"
+              target="_blank" class="recomendados-link">Autismo: desmontando la dieta “milagrosa”</a>
           </h4>
         </div>
       </div>
     </section>
 
-    <section id="menu-navegacion" class="menu py-5">
-      <h3 class="titulo-parrafo text-center mt-5 mb-3">MAPA DE NUESTRO SITIO WEB</h3>
+    <section id="menu-navegacion" class="container-fluid py-5">
+      <h3 class="container titulo-parrafo text-center mt-5 mb-3">MAPA DE NUESTRA WEB</h3>
       <img src="./assets/img/menu.png" alt="Menú del sitio web" class="w-100">
     </section>
 
-    <section class="container my-5">
+    <section id="sigue-conociendo" class="container my-5">
       <div class="text-center p-5 m-5">
         <h2 class="title-article text-uppercase">Sigue Conociendo Más de Nosotros</h2>
       </div>
       <div class="row d-flex align-items-center py-5 my-5">
         <div class="col-md-3 text-center">
-          <a href="servicios.html" class="enlaces-noticias">
+          <a href="servicios.html#talleres" class="enlaces-noticias">
             <img src="./assets/img/img-capacitaciones.png" alt="Fundación Entornasol: Equipo" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">CAPACITACIONES</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html#talleres" class="recomendados-link">CAPACITACIONES</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="servicios.html" class="enlaces-noticias">
             <img src="./assets/img/img-pedagogia.png" alt="Fundación Entornasol: Testimonios" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="#" class="recomendados-link">PED. TERAPÉUTICA</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">PED. TERAPÉUTICA</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="servicios.html" class="enlaces-noticias">
             <img src="./assets/img/img-acompañamiento.png" alt="Fundación Entornasol: Donaciones" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="#" class="recomendados-link">ACOMPAÑAMIENTO</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">EVALUACIÓN</a></h4>
         </div>
         <div class="col-md-3 text-center">
           <a href="mision.html#espacio" class="enlaces-noticias">
@@ -364,7 +492,7 @@
       </div>
     </section>
 
-    <article class="articulo py-5">
+    <article id="mejores-noticias" class="articulo py-5">
       <h2 class="title-article title-article text-center m-5">Las mejores noticias para ti</h2>
       <section class="d-flex justify-content-center py-2">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -384,7 +512,8 @@
                   <a class="nav-link" aria-current="page" href="#">Multimedia</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer">Redes Sociales</a>
+                  <a class="nav-link" aria-current="page" href="https://www.instagram.com/fundacionentornasol/"
+                    target="_blank" rel="noopener noreferrer">Redes Sociales</a>
                 </li>
               </ul>
             </div>
@@ -432,7 +561,8 @@
                 <a href="#" class="enlaces-noticias">
                   <img src="./assets/img/historias.png" alt="Fundación Entornasol" class="p-2 w-100">
                 </a>
-                <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer" class="enlaces-noticias">
+                <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"
+                  class="enlaces-noticias">
                   <img src="./assets/img/redes-sociales.png" alt="Fundación Entornasol" class="p-2 w-100">
                 </a>
               </div>
@@ -448,42 +578,38 @@
       </div>
       <div class="row pb-5 mx-5">
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/fluent-emoji-high-contrast_heart-hands.svg" alt="Icono">
             <h5 class=" my-5">Compromiso con la comunidad autista</h5>
-          </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/icon-park-outline_good-two.svg" alt="Icono">
             <h5 class="title-article my-5">Asesoramiento y apoyo</h5>
-          </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/vaadin_handshake.svg" alt="Icono">
             <h5 class="title-article my-5">Transparencia y responsabilidad</h5>
-          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <section class="enlaces-footer text-center pt-5 my-5">
+  <footer class="container-fluid">
+    <section id="menu-footer" class="enlaces-footer text-center pt-5 my-5">
       <p><a href="mision.html" class="m-3">Misión</a><span><a href="servicios.html" class="m-3">Servicios</a></span>
         <span><a href="noticias.html#testimonios" class="m-3">Testimonios</a></span>
         <span><a href="donaciones.html" class="m-3">Colaboradores</a></span>
-        <span><a href="#" class="m-3">Noticias</a></span><span><a href="#"class="m-3">Contacto</a></span>
+        <span><a href="#" class="m-3">Noticias</a></span><span><a href="contacto.html" class="m-3">Contacto</a></span>
       </p>
     </section>
-    <section class="text-center mb-5">
-      <a href="#" class="enlaces-logotipo-footer"><img src="./assets/img/logo bg azul logo.svg" alt="Logo blanco"></a>
+    <section id="logo-footer" class="text-center mb-5">
+      <a href="#" class="enlaces-logotipo-footer w-100"><img src="./assets/img/logo bg azul logo.svg"
+          alt="Logo blanco"></a>
       <div class="text-center">
         <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><i
-          class="fa-brands fa-instagram text-white mx-3"></i></a>
+            class="fa-brands fa-instagram text-white mx-3"></i></a>
         <a href="https://wa.me/+56992120409" target="_blank"><i class="fa-brands fa-whatsapp text-white mx-3"></i></a>
-        <a href="mailto:fundacionentornasol@gmail.com" target="_blank"><i class="fa-regular fa-envelope-open text-white mx-3"></i></a>
+        <a href="mailto:fundacionentornasol@gmail.com" target="_blank"><i
+            class="fa-regular fa-envelope-open text-white mx-3"></i></a>
       </div>
     </section>
     <div class="pb-5">

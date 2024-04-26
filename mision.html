@@ -37,6 +37,11 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="portada-movil d-md-none">
+          <a class="navbar-logo " href="index.html">
+            <img src="./assets/img/logo-entornasol.png" alt="logotipo Entornasol" width="160" height="auto">
+          </a>
+        </div>
         <div class="collapse navbar-collapse me-3" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
@@ -57,8 +62,8 @@
                 Servicios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Pedagogía Terapéutica</a></li>
-                <li><a class="dropdown-item" href="servicios.html">Capacitaciones</a></li>
+                <li><a class="dropdown-item" href="servicios.html">Pedagogía Terapéutica</a></li>
+                <li><a class="dropdown-item" href="servicios.html#talleres">Capacitaciones</a></li>
                 <!-- <li><a class="dropdown-item" href="#">Acompañamiento</a></li> -->
                 <!-- <li><a class="dropdown-item" href="#">Calendario</a></li> -->
                 <li><a class="dropdown-item" href="#">Servicios Complementarios</a>
@@ -90,7 +95,7 @@
                 <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
                 <li><a class="dropdown-item" href="noticias.html#testimonios">Testimonios</a></li>
                 <li><a class="dropdown-item" href="noticias.html#reseña">Reseña Histórica</a></li>
-                <!-- <li><a class="dropdown-item" href="#">Temas de Interés</a></li> -->
+                <li><a class="dropdown-item" href="noticias.html#objetivos-valores">Objetivos y Valores</a></li>
                 <li><a class="dropdown-item" href="#">Recursos Multimedia</a>
                   <ul>
                     <li><a class="dropdown-item" href="noticias.html" rel="noopener noreferrer">Redes Sociales</a>
@@ -121,7 +126,7 @@
   </header>
 
   <main>
-    <section id="creser" class="row container-fluid portada-grande">
+    <section id="creser-desktop" class="row container-fluid">
       <div class="col-md-7 parrafo-hero-mision">
         <h1 class="titulo-hero ms-5">Motivos para CreSer</h1>
       </div>
@@ -167,10 +172,57 @@
             <a href="index.html"><button type="button" class="btn boton-rosa mt-5">Volver a Inicio AQUÍ</button></a>
         </div>
       </div>
-
     </section>
 
-    <section id="mision-vision" class="articulo py-5">
+    <section id="creser-movil" class="row container parrafo-hero-mision-movil">
+      <div class="container col-md-7 parrafo-hero-mision-movil">
+        <h1 class="titulo-hero ms-5">Motivos para CreSer</h1>
+      </div>
+      <div class="container col-md-5 imagen-hero ms-5 mb-3">
+        <img src="./assets/img/img-hero.png" alt="Fundación Entornasol" class="w-75 mt-5">
+      </div>
+      <div class="container mx-3">
+        <p class="title-article">Desde 2020, en pandemia y con cuarentenas, iniciamos una propuesta que pone en el centro a la niñez, su felicidad y bienestar para encontrarnos en un lugar seguro, de respeto mutuo, equitativo y amoroso. La propuesta CreSer, de Fundación Entornasol (programas TEA Time), reúne a mujeres, madres y
+          profesionales con el objetivo de crear espacios de convivencia y aprendizaje para niñas, niños y jóvenes
+          autistas, que favorezcan el desarrollo de sus potencialidades, a la vez que brindan los apoyos necesarios para
+          los desafíos propios de su condición. Creamos programas de pedagogía terapéutica, holísticos y a través de un
+          paradigma ecológico. Trabajamos con la mirada en la comunidad, acompañando a niños y sus familias,
+          desarrollando instancias para la formación y la divulgación de enfoques de vanguardia en educación y terapia.
+        </p>
+        <p class="title-article">Esta propuesta, nace en 2020 bajo el alero de Corfo a través del comité de desarrollo
+          productivo. regional del Biobío, en la línea de Innovación Social. Actualmente es desarrollada por la
+          Fundación Entornasol, en alianza con organizaciones y personas comprometidas con la co-construcción de un
+          mundo que convive y se enriquece de la diversidad realzando la neurodivergencia.</p>
+      </div>
+
+      <div class="container row pb-3">
+        <div class="col-md-5 text-center ms-5">
+          <img src="./assets/img/undraw_super_thank_you_re_f8bo.svg" class="w-50" alt="Niña feliz">
+        </div>
+        <div class="container col-md-6 mx-3">
+          <h5 class="title-article mt-5 mb-3">Los brotes nuevos requieren nutrientes</h5>
+          <p class="title-article">Un trabajo profundo y delicado requiere estabilidad para dar respuesta a familias
+            que buscan mejorar la calidad de vida de sus hijos, quienes permanente requieren atención profesional. Por
+            ello esta propuesta busca democratizar el acceso a quienes lo necesitan. Desde 2020 iniciamos, en pandemia y
+            con cuarentenas, una propuesta que pone en el centro a la niñez. Su felicidad y bienestar, para encontrarnos
+            en un lugar seguro, de respeto mutuo, equitativo y amoroso.
+            </p>
+            <h5 class="title-article mt-5 mb-3">Cuando pudimos volver a las Aulas</h5>
+            <p class="title-article">En un año nos desplegamos en cada espacio que nos acogió:
+              Espacio escuela de la tierra, Bio huerta, talleres de arte y encuentro con caballos, bosque, agua y paddle
+              sup (tabla en el agua) , cocina sensorial, juegos sensoriales, parques de juegos, canchas, biopark y
+              espacios recreativos. Nos desplegamos alrededor del entorno que nos ofrece nuestro territorio,
+              adaptándonos a las diversas condiciones, intereses y necesidades de apoyo generando adecuaciones. Sin
+              embargo también hemos recibido discriminación. Como en la tierra sucede, las buenas semillas necesitan
+              crecer en las condiciones óptimas. Con tristeza en ocasiones tuvimos que dejar espacios que no fueron
+              aptos para convivir y cerraron sus puertas a la neurodivergencia.
+            </p>
+            <a href="index.html"><button type="button" class="btn boton-rosa mt-5">Volver a Inicio AQUÍ</button></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="mision-vision" class="container-fluid articulo py-5">
       <div class="row contenedor-saludo py-5 m-5">
         <div class="col-md-6">
           <h3 class="title-article text-center pt-5 pb-3 m-3">Misión y Visión</h3>
@@ -196,7 +248,7 @@
       </div>
     </section>
 
-    <section id="historia" class="container my-3">
+    <section id="historia" class="historia-desktop container my-3">
       <div class="text-center p-5 m-5">
         <h2 class="titulo-parrafo"> 3 Hitos de Nuestra Historia</h2>
       </div>
@@ -226,11 +278,67 @@
       </div>
 
     </section>
+    
+    <section id="historia" class="historia-movil container my-3">
+      <div class="text-center m-5">
+        <h2 class="subtitulo"> 3 Hitos de Nuestra Historia</h2>
+      </div>
+      <div class="row d-flex align-items-center my-5">
+        <div class="col-md-4 text-center">
+          <a href="noticias.html#tea-time" class="enlaces-noticias">
+            <img src="./assets/img/story-tea-times.png" alt="Fundación Entornasol: Tea Time" class="w-50">
+          </a>
+          <h4 class="title-article my-3"><a href="noticias.html#tea-time" class="recomendados-link">TEA TIME</a></h4>
+          
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="noticias.html#el-trencito" class="enlaces-noticias">
+            <img src="./assets/img/story-trencito.png" alt="Fundación Entornasol: El Trencito" class="w-50">
+          </a>
+          <h4 class="title-article my-3"><a href="noticias.html#el-trencito" class="recomendados-link">EL TRENCITO</a></h4>
+        </div>
+        <div class="col-md-4 text-center">
+          <a href="noticias.html#la-fundacion" class="enlaces-noticias">
+            <img src="./assets/img/story-fundacion.png" alt="Fundación Entornasol" class="w-50">
+          </a>
+          <h4 class="title-article my-3"><a href="noticias.html#la-fundacion" class="recomendados-link">LA FUNDACIÓN</a></h4>
+        </div>
+        <div class="text-center my-5">
+          <a href="noticias.html#reseña"><button type="button" class="btn boton-blue m-3">Conoce más AQUÍ</button></a>
+        </div>
+      </div>
 
-    <section id="equipo" class="articulo py-3">
-      <div class="row pt-5 m-3">
-        <div class="col-md-6">
+    </section>
+
+
+    <section id="equipo" class="equipo-desktop container-fluid articulo py-3">
+      <div class="container row pt-5 m-3">
+        <div class="container col-md-6">
           <h3 class="title-article text-center pb-3 m-3">Nuestro Equipo Multidisciplinario</h3>
+          <p class="title-article pt-3 m-3">Una creciente demanda por servicios especializados para niñas y niños con
+            altas necesidades de apoyo que no encuentran respuestas en los espacios convencionales.
+          </p>
+          <p class="title-article py-2 m-3">Por ello es necesario contar con un equipo humano especializado, en
+            constante capacitación, y apoyos suficientes que acompañen las necesidades emergentes de cada niño, niña y
+            familias que conviven con el autismo.
+          </p>
+          <p class="title-article py-2 m-3">Coordinado por Magdalena Inzunza, educadora diferencial, junto a profesionales de la educación como Daniela Manríquez y Ximena Medina;  fonoaudiología como Valentina González, Terapeutas ocupacionales, Francisca Neira y Daniela Cáceres, además de colaboraciones en diversas de áreas, que dialogan en nuestro devenir con las necesidades o intereses de nuestros niños: psicología, kinesiología, biohuerta, equinoterapia, musicoterapia, logopedagogía, diseñadores, etc. 
+          </p>
+          <a href="index.html"><button type="button" class="btn btn-secondary my-5">Volver a Inicio AQUÍ</button></a>
+        </div>
+        <div class="container col-md-6 pt-5 mt-5">
+          <img src="./assets/img/team.png" class="w-100" alt="Fundación Entornasol: Artículo">
+        </div>
+      </div>
+    </section>
+
+    <section id="equipo" class="equipo-movil container-fluid articulo py-3">
+      <div class="container row pt-5 m-3">
+        <h3 class="title-article text-center pb-5 m-3">Nuestro Equipo Multidisciplinario</h3>
+        <div class="container col-md-6">
+          <img src="./assets/img/team.png" class="w-100" alt="Fundación Entornasol: Artículo">
+        </div>
+        <div class="container col-md-6">
           <p class="title-article pt-3 m-3">Una creciente demanda por servicios especializados para niñas y niños con
             altas necesidades de apoyo que no encuentran respuestas en los espacios convencionales.
           </p>
@@ -238,29 +346,25 @@
             constante capacitación) y apoyos suficientes que acompañen las necesidades emergentes de cada niño, niña y
             familias que conviven con el autismo.
           </p>
-          <p class="title-article py-2 m-3">Trabajamos con pedagogas, terapeutas y profesionales con trayectoria,
-            experiencia y amor por el autismo; Reciben formación en nuestras metodología que permanentemente requiere
-            actualización.
+          <p class="title-article py-2 m-3">Coordinado por Magdalena Inzunza, educadora diferencial, junto a profesionales de la educación como Daniela Manríquez y Ximena Medina;  fonoaudiología como Valentina González, Terapeutas ocupacionales, Francisca Neira y Daniela Cáceres, además de colaboraciones en diversas de áreas, que dialogan en nuestro devenir con las necesidades o intereses de nuestros niños: psicología, kinesiología, biohuerta, equinoterapia, musicoterapia, logopedagogía, diseñadores, etc. 
+
           </p>
           <p class="title-article pb-3 m-3">Nuestro mayor desafío es sostener y hacer crecer este equipo de talentos
             humanos.</p>
           <a href="index.html"><button type="button" class="btn btn-secondary my-5">Volver a Inicio AQUÍ</button></a>
         </div>
-        <div class="col-md-6">
-          <img src="./assets/img/team.png" class="w-100" alt="Fundación Entornasol: Artículo">
-        </div>
       </div>
     </section>
 
-    <section id="espacio" class="articulo bg-white py-5">
-      <p class="title-article text-center pt-5 mx-3">Nuestro Espacio: Co-creando entornos seguros y adecuados
+    <section id="espacio" class="container articulo bg-white py-5">
+      <h3 class="title-article text-center pt-3 mx-3">Aulas para Todos y Todas</h3>
+      <p class="title-article text-center mx-3">Co-creando entornos seguros y adecuados
       </p>
-      <h3 class="title-article text-center pt-3 pb-5 mx-3">Aulas para Todos y Todas</h3>
-      <div class="row py-5 m-5">
+      <div class="row m-5">
         <div class="col-md-6">
           <img src="./assets/img/nuestro-espacio-xl.png" alt="Fundación Entornasol: Artículo" class="w-100">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 mt-5">
           <p class="texto">Entornasol, es un espacio que integra un programa innovador
             dirigido a niños,niñas y jóvenes autistas, neurodivergentes. Dicho programa se
             basa en una co-creación holística y un modelo ecológico, con un enfoque de
@@ -295,22 +399,22 @@
       </div>
       <div class="row d-flex align-items-center py-5 my-5">
         <div class="col-md-3 text-center">
-          <a href="servicios.html" class="enlaces-noticias">
+          <a href="servicios.html#talleres" class="enlaces-noticias">
             <img src="./assets/img/img-capacitaciones.png" alt="Fundación Entornasol: Equipo" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">CAPACITACIONES</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html#talleres" class="recomendados-link">CAPACITACIONES</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="servicios.html" class="enlaces-noticias">
             <img src="./assets/img/img-pedagogia.png" alt="Fundación Entornasol: Testimonios" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="#" class="recomendados-link">PED. TERAPÉUTICA</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">PED. TERAPÉUTICA</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="servicios.html" class="enlaces-noticias">
             <img src="./assets/img/img-acompañamiento.png" alt="Fundación Entornasol: Donaciones" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="#" class="recomendados-link">ACOMPAÑAMIENTO</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">EVALUACIÓN</a></h4>
         </div>
         <div class="col-md-3 text-center">
           <a href="mision.html#espacio" class="enlaces-noticias">
@@ -321,7 +425,7 @@
       </div>
     </section>
 
-    <article id="mejores-noticias" class="articulo py-5">
+    <article id="mejores-noticias" class="container-fluid articulo py-5">
       <h2 class="title-article title-article text-center m-5">Las mejores noticias para ti</h2>
       <section class="d-flex justify-content-center py-2">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -399,54 +503,50 @@
       </section>
     </article>
 
-    <section id="amarnos" class="my-5">
+    <section id="amarnos" class="container my-5">
       <div class="text-center pb-5">
         <h2 class="title-article pb-5">¿Por qué tú nos amarás?</h2>
       </div>
       <div class="row pb-5 mx-5">
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/fluent-emoji-high-contrast_heart-hands.svg" alt="Icono">
             <h5 class=" my-5">Compromiso con la comunidad autista</h5>
-          </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/icon-park-outline_good-two.svg" alt="Icono">
             <h5 class="title-article my-5">Asesoramiento y apoyo</h5>
-          </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/vaadin_handshake.svg" alt="Icono">
             <h5 class="title-article my-5">Transparencia y responsabilidad</h5>
-          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <section class="enlaces-footer text-center pt-5 my-5">
-      <p><a href="#" class="m-3">Misión</a><span><a href="servicios.html" class="m-3">Servicios</a></span><span><a href="noticias.html#testimonios"
-            class="m-3">Testimonios</a></span><span><a href="donaciones.html"
-            class="m-3">Colaboradores</a></span><span><a href="noticias.html" class="m-3">Noticias</a></span><span><a href="#"
-            class="m-3">Contacto</a></span></p>
+  <footer class="container-fluid">
+    <section id="menu-footer" class="enlaces-footer text-center pt-5 my-5">
+      <p><a href="#" class="m-3">Misión</a><span><a href="servicios.html" class="m-3">Servicios</a></span>
+        <span><a href="noticias.html#testimonios" class="m-3">Testimonios</a></span>
+        <span><a href="donaciones.html" class="m-3">Colaboradores</a></span>
+        <span><a href="noticias.html" class="m-3">Noticias</a></span><span><a href="contacto.html" class="m-3">Contacto</a></span>
+      </p>
     </section>
-    <section class="text-center mb-5">
-      <a href="index.html" class="enlaces-logotipo-footer"><img src="./assets/img/logo bg azul logo.svg" alt="Logo blanco"></a>
+    <section id="logo-footer" class="text-center mb-5">
+      <a href="#" class="enlaces-logotipo-footer w-100"><img src="./assets/img/logo bg azul logo.svg" alt="Logo blanco"></a>
       <div class="text-center">
         <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><i
-          class="fa-brands fa-instagram text-white mx-3"></i></a>
-          <a href="https://wa.me/+56992120409" target="_blank"><i class="fa-brands fa-whatsapp text-white mx-3"></i></a>
-          <a href="mailto:fundacionentornasol@gmail.com" target="_blank"><i class="fa-regular fa-envelope-open text-white mx-3"></i></a>
+            class="fa-brands fa-instagram text-white mx-3"></i></a>
+        <a href="https://wa.me/+56992120409" target="_blank"><i class="fa-brands fa-whatsapp text-white mx-3"></i></a>
+        <a href="mailto:fundacionentornasol@gmail.com" target="_blank"><i
+            class="fa-regular fa-envelope-open text-white mx-3"></i></a>
       </div>
     </section>
     <div class="pb-5">
       <p class="texto-reservado-footer text-center">© 2024 Fundación Entornasol / teatime.creser@gmail.com /
-        Teléfono-whatsApp: +56992120409</p>
+        Teléfono-whatsApp: +56992120409
+      </p>
     </div>
-
   </footer>
 
 

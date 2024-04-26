@@ -17,6 +17,10 @@
   font-size: 32px;
 }
 
+.subtitulo {
+  font-family: "Martel", serif;
+}
+
 .menu {
   background-color: #f7f7f7;
 }
@@ -72,6 +76,22 @@
   background-color: #f7f7f7;
 }
 
+.parrafo-hero-mision-movil {
+  padding-top: 63px;
+  background-color: #f7f7f7;
+}
+
+.parrafo-hero-servicios {
+  padding-top: 300px;
+  background-color: #f7f7f7;
+}
+
+.parrafo-hero-pedagogia {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  background-color: #f7f7f7;
+}
+
 .portada-grande {
   background-color: #f7f7f7;
   padding-right: 0;
@@ -83,6 +103,11 @@
 
 .imagen-hero {
   background-color: #f7f7f7;
+}
+
+.imagen-hero-pedagogia {
+  background-color: #f7f7f7;
+  padding-top: 100px;
 }
 
 .title-article {
@@ -159,7 +184,7 @@ font-size: 14px;
 color: #ffffff;
 }
 
-.hero-noticias {
+.hero-instagram {
   background-color: #FAFAFA;
 }
 
@@ -167,10 +192,31 @@ color: #ffffff;
   background-color: #f1dfeb;
 }
 
+#reseña {
+  background-color: #f7f7f7;
+}
 
 /* Estilos para tamaños de tablet hacia arriba */
 @media only screen and (min-width: 768px) {
   .portada-movil {
+    display: none;
+  }
+  .reseña-movil {
+    display: none;
+  }
+  #noticias-movil {
+    display: none;
+  }
+  .historia-movil {
+    display: none;
+  }
+  #creser-movil {
+    display: none;
+  }
+  .equipo-movil {
+    display: none;
+  }
+  .imagen-donaciones-movil {
     display: none;
   }
 }
@@ -184,6 +230,33 @@ color: #ffffff;
     display: none;
   }
   #sigue-conociendo {
+    display: none;
+  }
+  #menu-footer {
+    display: none;
+  }
+  #logo-footer {
+    padding-top: 40px;
+  }
+ .navbar-brand {
+    display: none;
+  }
+  .reseña-desktop {
+    display: none;
+  }
+  #noticias-desktop {
+    display: none;
+  }
+  .historia-desktop {
+    display: none;
+  }
+  #creser-desktop {
+    display: none;
+  }
+  .equipo-desktop {
+    display: none;
+  }
+  .imagen-donaciones-desktop {
     display: none;
   }
 }

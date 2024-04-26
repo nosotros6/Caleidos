@@ -37,6 +37,11 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="portada-movil d-md-none">
+          <a class="navbar-logo " href="donaciones.html">
+            <img src="./assets/img/logo-entornasol.png" alt="logotipo Entornasol" width="160" height="auto">
+          </a>
+        </div>
         <div class="collapse navbar-collapse me-3" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
@@ -57,8 +62,8 @@
                 Servicios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Pedagogía Terapéutica</a></li>
-                <li><a class="dropdown-item" href="servicios.html">Capacitaciones</a></li>
+                <li><a class="dropdown-item" href="servicios.html">Pedagogía Terapéutica</a></li>
+                <li><a class="dropdown-item" href="servicios.html#talleres">Capacitaciones</a></li>
                 <!-- <li><a class="dropdown-item" href="#">Acompañamiento</a></li> -->
                 <!-- <li><a class="dropdown-item" href="#">Calendario</a></li> -->
                 <li><a class="dropdown-item" href="#">Servicios Complementarios</a>
@@ -90,7 +95,7 @@
                 <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
                 <li><a class="dropdown-item" href="noticias.html#testimonios">Testimonios</a></li>
                 <li><a class="dropdown-item" href="story.html">Reseña Histórica</a></li>
-                <!-- <li><a class="dropdown-item" href="#">Temas de Interés</a></li> -->
+                <li><a class="dropdown-item" href="noticias.html#objetivos-valores">Objetivos y Valores</a></li>
                 <li><a class="dropdown-item" href="#">Recursos Multimedia</a>
                   <ul>
                     <li><a class="dropdown-item" href="noticias.html" rel="noopener noreferrer">Redes Sociales</a>
@@ -121,21 +126,22 @@
   </header>
 
   <main>
-    <section class="articulo pt-5">
-      <article class="row py-5 m-5">
-        <div class="container col-md-6">
+    <section class="container pt-5">
+      <article class="container row py-5">
+        <div class="container imagen-donaciones-desktop col-md-6">
           <img src="./assets/img/donaciones.png" alt="Fundación Entornasol: Donaciones" class="w-100">
         </div>
+        <div class="container imagen-donaciones-movil col-md-6 text-center ">
+          <img src="./assets/img/donaciones.png" alt="Fundación Entornasol: Donaciones" class="w-75">
+        </div>
         <div class="container col-md-6">
-          <h3 class="title-article text-center pt-5 pb-3 mx-3">¿Cuánto dinero necesitamos?</h3>
+          <h3 class="title-article text-center pt-5 pb-3 mx-3">¿Qué hemos financiado?</h3>
           <p class="title-article m-3">Existen diversos tipos de construcción que podemos imaginar en coherencia con lo
             que somos, un entorno creativo e innovador abierto a co-crear en base a las posibilidades. Nos inspira una
-            construcción ecológica, bioconstrucción, reutilizar
-            infraestructura en desuso como un vagón de tren o un container, un bus, un vehículo menor, etc. amamos la
-            idea del diseño apropiado, usando materiales nobles como el barro, la madera o la piedra. Lo que nos ofrezca
-            el territorio.</p>
-          <h5 class="title-article text-center pt-3 m-3"> Con base en lo ya realizado, una estimación de costos:</h5>
-          <ul class="title-article mx-3">
+            construcción ecológica, bioconstrucción, por eso reutilizamos como primera
+            infraestructura, un vagón de tren en desuso, ubicado en el Parque Laguna Grande de San Pedro de La Paz. Amamos la idea del diseño apropiado, usando materiales nobles como el barro, la madera o la piedra o lo que nos ofrezca el territorio.</p>
+          <h5 class="title-article text-center pt-3 m-3"> ¿Y qué podemos financiar con tu apoyo?</h5>
+          <ul class="title-article mx-3 mb-5">
             <li>Implementación en mobiliario básico y especializado.</li>
             <li>Cojines y ambiente reconfortante.</li>
             <li>Colgantes y columpios para integración sensorial.</li>
@@ -143,12 +149,12 @@
             <li>Insumos para talleres.</li>
             <li>Set de materiales nobles</li>
           </ul>
-          <p class="title-article py-5 m-3">TOTAL MENSUAL APROX.: $3.500.000</p>
-          <a href="index.html" class="m-3"><button type="button" class="btn btn-secondary my-3">Volver a Inicio
+          <!-- <p class="title-article py-5 m-3">TOTAL MENSUAL APROX.: $3.500.000</p> -->
+          <a href="index.html" class="mt-5 m-3"><button type="button" class="btn btn-secondary my-3">Volver a Inicio
               AQUÍ</button></a>
         </div>
       </article>
-      <article class=" pb-5 mt-5 mx-5">
+      <article class="container pb-5 mt-5">
         <h3 class="title-article text-center pb-3 m-3">Formas de colaborar</h3>
         <p class="title-article m-3">La implementación y mantención de aulas requiere principalmente retribuir a
           nuestro recurso humano quienes despliegan su máximo potencial en una entrega de alto compromiso físico y
@@ -158,7 +164,7 @@
             nuestra fundación.</li>
           <li>Como persona natural puedes donar tardes, semanas o meses para CreSer.</li>
         </ul>
-        <div class="m-5">
+        <div class="container px-5">
           <table class="table">
             <thead>
               <tr>
@@ -202,8 +208,8 @@
         </div>
       </article>
     </section>
-    <section id="alianzas" class="articulo pb-5">
-      <article class="row pt-5 mx-5">
+    <section id="alianzas" class="container-fluid articulo pb-5">
+      <article class="row pt-5">
         <div class="container col-md-6">
           <h3 class="title-article text-center pt-5 pb-3 mx-3">COLABORADORES Y ALIANZAS</h3>
           <p class="title-article m-3">Nacimos como propuesta de Innovación Social, co-financiados por Corfo hasta el año 2023, creando alianzas con organizaciones locales como el Balneario Municipal de San Pedro, Cendyr Náutico, la Agrupación Familia ASPI, Cicat de la Universidad de Concepción y la Municipalidad de San Pedro de la Paz, quien nos facilitó el icónico Trencito ubicado frente al Parque Laguna Grande para desarrollar nuestros programas.
@@ -230,22 +236,22 @@
       </div>
       <div class="row d-flex align-items-center py-5 my-5">
         <div class="col-md-3 text-center">
-          <a href="servicios.html" class="enlaces-noticias">
+          <a href="servicios.html#talleres" class="enlaces-noticias">
             <img src="./assets/img/img-capacitaciones.png" alt="Fundación Entornasol: Equipo" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">CAPACITACIONES</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html#talleres" class="recomendados-link">CAPACITACIONES</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="servicios.html" class="enlaces-noticias">
             <img src="./assets/img/img-pedagogia.png" alt="Fundación Entornasol: Testimonios" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="#" class="recomendados-link">PED. TERAPÉUTICA</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">PED. TERAPÉUTICA</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="servicios.html" class="enlaces-noticias">
             <img src="./assets/img/img-acompañamiento.png" alt="Fundación Entornasol: Donaciones" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="#" class="recomendados-link">ACOMPAÑAMIENTO</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">EVALUACIÓN</a></h4>
         </div>
         <div class="col-md-3 text-center">
           <a href="mision.html#espacio" class="enlaces-noticias">
@@ -334,53 +340,52 @@
       </section>
     </article>
 
-    <section class="my-5">
+    <section class="container my-5">
       <div class="text-center py-5">
         <h2 class="title-article py-5">¿Por qué tú nos amarás?</h2>
       </div>
       <div class="row pb-5 mx-5">
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/fluent-emoji-high-contrast_heart-hands.svg" alt="Icono">
             <h5 class=" my-5">Compromiso con la comunidad autista</h5>
-          </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/icon-park-outline_good-two.svg" alt="Icono">
             <h5 class="title-article my-5">Asesoramiento y apoyo</h5>
-          </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/vaadin_handshake.svg" alt="Icono">
             <h5 class="title-article my-5">Transparencia y responsabilidad</h5>
-          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <section class="enlaces-footer text-center pt-5 my-5">
-      <p><a href="mision.html" class="m-3">Misión</a><span><a href="servicios.html" class="m-3">Servicios</a></span><span><a href="noticias.html#testimonios"
-            class="m-3">Testimonios</a></span><span><a href="donaciones.html" class="m-3">Colaboradores</a></span><span><a href="noticias.html"
-            class="m-3">Noticias</a></span><span><a href="#" class="m-3">Contacto</a></span></p>
+  <footer class="container-fluid">
+    <section id="menu-footer" class="enlaces-footer text-center pt-5 my-5">
+      <p><a href="mision.html" class="m-3">Misión</a><span><a href="servicios.html" class="m-3">Servicios</a></span>
+        <span><a href="noticias.html#testimonios" class="m-3">Testimonios</a></span>
+        <span><a href="donaciones.html" class="m-3">Colaboradores</a></span>
+        <span><a href="noticias.html" class="m-3">Noticias</a></span><span><a href="contacto.html" class="m-3">Contacto</a></span>
+      </p>
     </section>
-    <section class="text-center mb-5">
-      <a href="index.html" class="enlaces-logotipo-footer"><img src="./assets/img/logo bg azul logo.svg" alt="Logo blanco"></a>
+    <section id="logo-footer" class="text-center mb-5">
+      <a href="#" class="enlaces-logotipo-footer w-100"><img src="./assets/img/logo bg azul logo.svg" alt="Logo blanco"></a>
       <div class="text-center">
         <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><i
-          class="fa-brands fa-instagram text-white mx-3"></i></a>
-          <a href="https://wa.me/+56992120409" target="_blank"><i class="fa-brands fa-whatsapp text-white mx-3"></i></a>
-          <a href="mailto:fundacionentornasol@gmail.com" target="_blank"><i class="fa-regular fa-envelope-open text-white mx-3"></i></a>
+            class="fa-brands fa-instagram text-white mx-3"></i></a>
+        <a href="https://wa.me/+56992120409" target="_blank"><i class="fa-brands fa-whatsapp text-white mx-3"></i></a>
+        <a href="mailto:fundacionentornasol@gmail.com" target="_blank"><i
+            class="fa-regular fa-envelope-open text-white mx-3"></i></a>
       </div>
     </section>
     <div class="pb-5">
       <p class="texto-reservado-footer text-center">© 2024 Fundación Entornasol / teatime.creser@gmail.com /
-        Teléfono-whatsApp: +56992120409</p>
+        Teléfono-whatsApp: +56992120409
+      </p>
     </div>
   </footer>
+
 
 
 

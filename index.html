@@ -37,6 +37,11 @@
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="portada-movil d-md-none">
+          <a class="navbar-logo " href="#">
+            <img src="./assets/img/logo-entornasol.png" alt="logotipo Entornasol" width="160" height="auto">
+          </a>
+        </div>
         <div class="collapse navbar-collapse me-3" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item dropdown">
@@ -57,8 +62,8 @@
                 Servicios
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Pedagogía Terapéutica</a></li>
-                <li><a class="dropdown-item" href="servicios.html">Capacitaciones</a></li>
+                <li><a class="dropdown-item" href="servicios.html">Pedagogía Terapéutica</a></li>
+                <li><a class="dropdown-item" href="servicios.html#talleres">Capacitaciones</a></li>
                 <!-- <li><a class="dropdown-item" href="#">Acompañamiento</a></li> -->
                 <!-- <li><a class="dropdown-item" href="#">Calendario</a></li> -->
                 <li><a class="dropdown-item" href="#">Servicios Complementarios</a>
@@ -89,8 +94,8 @@
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="noticias.html">Noticias</a></li>
                 <li><a class="dropdown-item" href="noticias.html#testimonios">Testimonios</a></li>
-                <li><a class="dropdown-item" href="story.html">Reseña Histórica</a></li>
-                <!-- <li><a class="dropdown-item" href="#">Temas de Interés</a></li> -->
+                <li><a class="dropdown-item" href="noticias.html#reseña">Reseña Histórica</a></li>
+                <li><a class="dropdown-item" href="noticias.html#objetivos-valores">Objetivos y Valores</a></li>
                 <li><a class="dropdown-item" href="#">Recursos Multimedia</a>
                   <ul>
                     <li><a class="dropdown-item" href="noticias.html" rel="noopener noreferrer">Redes Sociales</a>
@@ -134,7 +139,7 @@
       </div>
     </section>
 
-    <section class="container-fluid portada-movil">
+    <section class="container-fluid portada-movil pt-5 mt-5">
       <div class="d-flex justify-content-end">
         <img src="./assets/img/img-hero.png" alt="Fundación Entornasol" class="w-75">
       </div>
@@ -144,7 +149,7 @@
           centro a
           la niñez, su felicidad y bienestar para encontrarnos en un lugar seguro, de respeto mutuo, equitativo y
           amoroso.</p>
-        <button type="button" class="btn boton-rosa">Seguir leyendo AQUÍ</button>
+          <a href="mision.html"><button type="button" class="btn boton-rosa">Seguir leyendo AQUÍ</button></a>
       </div>
     </section>
 
@@ -160,10 +165,10 @@
           <h4 class="my-3"><a href="mision.html#equipo" class="recomendados-link">EQUIPO</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="noticias.html#testimonios" class="enlaces-noticias">
             <img src="./assets/img/img-testimonios.png" alt="Fundación Entornasol: Testimonios">
           </a>
-          <h4 class="my-3"><a href="#" class="recomendados-link">TESTIMONIOS</a></h4>
+          <h4 class="my-3"><a href="noticias.html#testimonios" class="recomendados-link">TESTIMONIOS</a></h4>
         </div>
         <div class="col-md-3 text-center">
           <a href="donaciones.html" class="enlaces-noticias">
@@ -172,10 +177,10 @@
           <h4 class="my-3"><a href="donaciones.html" class="recomendados-link">DONACIONES</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="servicios.html" class="enlaces-noticias">
             <img src="./assets/img/img-calendario.png" alt="Fundación Entornasol: Calendario">
           </a>
-          <h4 class="my-3"><a href="#" class="recomendados-link">CALENDARIO</a></h4>
+          <h4 class="my-3"><a href="servicios.html" class="recomendados-link">CAPACITACIÓN</a></h4>
         </div>
       </div>
     </section>
@@ -183,7 +188,7 @@
     <section class="articulo py-5">
       <div class="row py-5 m-5">
         <div class="col-md-6">
-          <img src="./assets/img/img-articulo-niño.png" alt="Fundación Entornasol: Artículo">
+          <img src="./assets/img/img-articulo-niño.png" alt="Fundación Entornasol: Artículo" class="w-100">
         </div>
         <div class="col-md-6 pt-5">
           <p class="title-article pt-5 pb-2 mx-3">Nuestro Espacio: Co-creando entornos seguros y adecuados</p>
@@ -209,33 +214,33 @@
           <a href="donaciones.html"><button type="button" class="btn btn-secondary m-3">Leer más AQUÍ</button></a>
         </div>
         <div class="col-md-6">
-          <img src="./assets/img/img-trencito.png" alt="Fundación Entornasol: Saludo de Navidad">
+          <img src="./assets/img/img-trencito.png" alt="Fundación Entornasol: Saludo de Navidad" class="w-100">
         </div>
       </div>
     </section>
 
-    <section class="container my-5">
+    <section id="sigue-conociendo" class="container my-5">
       <div class="text-center p-5 m-5">
         <h2 class="title-article text-uppercase">Sigue Conociendo Más de Nosotros</h2>
       </div>
       <div class="row d-flex align-items-center py-5 my-5">
         <div class="col-md-3 text-center">
-          <a href="servicios.html" class="enlaces-noticias">
+          <a href="servicios.html#talleres" class="enlaces-noticias">
             <img src="./assets/img/img-capacitaciones.png" alt="Fundación Entornasol: Equipo" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">CAPACITACIONES</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html#talleres" class="recomendados-link">CAPACITACIONES</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="servicios.html" class="enlaces-noticias">
             <img src="./assets/img/img-pedagogia.png" alt="Fundación Entornasol: Testimonios" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="#" class="recomendados-link">PED. TERAPÉUTICA</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">PED. TERAPÉUTICA</a></h4>
         </div>
         <div class="col-md-3 text-center">
-          <a href="#" class="enlaces-noticias">
+          <a href="servicios.html" class="enlaces-noticias">
             <img src="./assets/img/img-acompañamiento.png" alt="Fundación Entornasol: Donaciones" class="w-75">
           </a>
-          <h4 class="title-article my-3"><a href="#" class="recomendados-link">ACOMPAÑAMIENTO</a></h4>
+          <h4 class="title-article my-3"><a href="servicios.html" class="recomendados-link">EVALUACIÓN</a></h4>
         </div>
         <div class="col-md-3 text-center">
           <a href="mision.html#espacio" class="enlaces-noticias">
@@ -247,7 +252,7 @@
       </div>
     </section>
 
-    <article class="articulo py-5">
+    <article id="mejores-noticias" class="articulo py-5">
       <h2 class="title-article title-article text-center m-5">Las mejores noticias para ti</h2>
       <section class="d-flex justify-content-center py-2">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -331,42 +336,37 @@
       </div>
       <div class="row pb-5 mx-5">
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/fluent-emoji-high-contrast_heart-hands.svg" alt="Icono">
             <h5 class=" my-5">Compromiso con la comunidad autista</h5>
-          </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/icon-park-outline_good-two.svg" alt="Icono">
             <h5 class="title-article my-5">Asesoramiento y apoyo</h5>
-          </a>
         </div>
         <div class="col-md-4 text-center">
-          <a href="#" id="enlaces-iconos" class="recomendados-link">
             <img src="./assets/img/vaadin_handshake.svg" alt="Icono">
             <h5 class="title-article my-5">Transparencia y responsabilidad</h5>
-          </a>
         </div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <section class="enlaces-footer text-center pt-5 my-5">
+  <footer class="container-fluid">
+    <section id="menu-footer" class="enlaces-footer text-center pt-5 my-5">
       <p><a href="mision.html" class="m-3">Misión</a><span><a href="servicios.html" class="m-3">Servicios</a></span>
         <span><a href="noticias.html#testimonios" class="m-3">Testimonios</a></span>
         <span><a href="donaciones.html" class="m-3">Colaboradores</a></span>
-        <span><a href="noticias.html" class="m-3">Noticias</a></span><span><a href="#"class="m-3">Contacto</a></span>
+        <span><a href="noticias.html" class="m-3">Noticias</a></span><span><a href="contacto.html" class="m-3">Contacto</a></span>
       </p>
     </section>
-    <section class="text-center mb-5">
-      <a href="#" class="enlaces-logotipo-footer"><img src="./assets/img/logo bg azul logo.svg" alt="Logo blanco"></a>
+    <section id="logo-footer" class="text-center mb-5">
+      <a href="#" class="enlaces-logotipo-footer w-100"><img src="./assets/img/logo bg azul logo.svg" alt="Logo blanco"></a>
       <div class="text-center">
         <a href="https://www.instagram.com/fundacionentornasol/" target="_blank" rel="noopener noreferrer"><i
-          class="fa-brands fa-instagram text-white mx-3"></i></a>
+            class="fa-brands fa-instagram text-white mx-3"></i></a>
         <a href="https://wa.me/+56992120409" target="_blank"><i class="fa-brands fa-whatsapp text-white mx-3"></i></a>
-        <a href="mailto:fundacionentornasol@gmail.com" target="_blank"><i class="fa-regular fa-envelope-open text-white mx-3"></i></a>
+        <a href="mailto:fundacionentornasol@gmail.com" target="_blank"><i
+            class="fa-regular fa-envelope-open text-white mx-3"></i></a>
       </div>
     </section>
     <div class="pb-5">
@@ -375,6 +375,7 @@
       </p>
     </div>
   </footer>
+
 
 
 
