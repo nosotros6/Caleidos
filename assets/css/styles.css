@@ -53,14 +53,14 @@
 }
 
 .boton-sepia {
-  background-color: #F09C63;
+  background-color: #f09c63;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
 }
 
 .boton-blue {
-  background-color: #3D90DE;
+  background-color: #3d90de;
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
@@ -110,13 +110,17 @@
   padding-top: 100px;
 }
 
+.flipped-image {
+  transform: scaleX(-1);
+}
+
 .title-article {
   font-family: "DM Sans", sans-serif;
 }
 
 .recomendados-link {
   text-decoration: none;
-  color: #3B3838;
+  color: #3b3838;
   transition: color 0.3s;
   font-family: "DM Sans", sans-serif;
   font-size: 20px;
@@ -134,34 +138,34 @@
 }
 
 .contenedor-saludo {
-  background-color: #EFC5A7;
+  background-color: #efc5a7;
 }
 
 .enlaces-noticias img {
-  transition: filter 0.3s ease; 
+  transition: filter 0.3s ease;
 }
 
 .enlaces-noticias:hover img {
-  filter: grayscale(100%); 
+  filter: grayscale(100%);
 }
 
 #enlaces-iconos img {
-  transition: filter 0.3s ease; 
+  transition: filter 0.3s ease;
 }
 
 #enlaces-iconos:hover img {
-  filter: grayscale(100%); 
+  filter: grayscale(100%);
 }
 
 footer {
-background-color: #126BBE;
+  background-color: #126bbe;
 }
 .enlaces-logotipo-footer img {
-  transition: filter 0.3s ease; 
+  transition: filter 0.3s ease;
 }
 
 .enlaces-logotipo-footer:hover img {
-  filter: grayscale(20%); 
+  filter: grayscale(20%);
 }
 .enlaces-footer a {
   text-decoration: none;
@@ -172,20 +176,20 @@ background-color: #126BBE;
 }
 
 .enlaces-footer:hover a {
-  color: #3B3838;
+  color: #3b3838;
   text-decoration: underline;
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
 }
 
 .texto-reservado-footer {
-font-family: "DM Sans", sans-serif;
-font-size: 14px;
-color: #ffffff;
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  color: #ffffff;
 }
 
 .hero-instagram {
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 }
 
 .card-instagram {
@@ -238,7 +242,7 @@ color: #ffffff;
   #logo-footer {
     padding-top: 40px;
   }
- .navbar-brand {
+  .navbar-brand {
     display: none;
   }
   .reseña-desktop {
@@ -257,6 +261,12 @@ color: #ffffff;
     display: none;
   }
   .imagen-donaciones-desktop {
+    display: none;
+  }
+  #imagen-tabla-donaciones {
+    display: none;
+  }
+  #imagen-ubicacion {
     display: none;
   }
 }
