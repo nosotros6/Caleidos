@@ -289,8 +289,8 @@
       </section>
       <section class="row container-fluid">
         <div class="col-md-5 imagen-hero-pedagogia">
-          <img src="./assets/img/otras-terapias-girl.svg" alt="Fundación Entornasol" class="w-100 py-3">
-          <img src="./assets/img/otras-terapias-waldorf.svg" alt="Fundación Entornasol" class="w-75 pt-5 mt-5 ms-5">
+          <img src="./assets/img/otras-terapias-girl.svg" alt="Fundación Entornasol" class="w-100 py-5">
+          <img src="./assets/img/otras-terapias-waldorf.svg" alt="Fundación Entornasol" class="w-75 py-5 my-5 ms-5">
           <img src="./assets/img/otras-terapias-boy.svg" alt="Fundación Entornasol" class="w-100 py-5">
         </div>
         <div id="otras-terapias" class="col-md-7 parrafo-hero-pedagogia">
@@ -305,7 +305,7 @@
             <li>Estimulación Cognitiva.</li>
             <li>Demencia y otras patologías.</li>
           </ul>
-          <h5 class="title-article text-capitalize">Prestaciones Fonoaudióloga:</h5>
+          <h5 class="title-article text-capitalize mt-5">Prestaciones Fonoaudióloga:</h5>
           <ul class="texto">
             <li>⁠Terapia de lenguaje y habla para trastorno específico del lenguaje, trastorno
               fonológico y trastorno de los sonidos del habla.</li>
@@ -318,7 +318,7 @@
             <li>Audiometrías.</li>
             <li>-Limpieza y lavado de oídos.</li>
           </ul>
-          <h5 class="title-article text-capitalize">Educación Waldorf:</h5>
+          <h5 class="title-article text-capitalize mt-5">Educación Waldorf:</h5>
           <ul class="texto">
             <li>⁠Vincular el proceso escritura lectura.</li>
             <li>Desarrollo la psicomotor grueso y fino.</li>
@@ -326,7 +326,7 @@
             <li>⁠Potenciar habilidades sensoriales, cognitivas, emocionales, fisicas de primer
               septenio.</li>
           </ul>
-          <h5 class="title-article text-capitalize">Educadora Diferencial:</h5>
+          <h5 class="title-article text-capitalize mt-5">Educadora Diferencial:</h5>
           <ul class="texto">
             <li>Estimulación temprana.</li>
             <li>Habilidades para la vida, sociales neurodiversas.</li>
@@ -337,7 +337,7 @@
               estudios en casa.</li>
             <li>Evaluaciones estandarizadas.</li>
           </ul>
-          <h5 class="title-article text-capitalize">Psicóloga:</h5>
+          <h5 class="title-article text-capitalize mt-5">Psicóloga:</h5>
           <ul class="texto">
             <li>Asesorías.</li>
             <li>Acompañamiento psicológico.</li>
@@ -431,9 +431,16 @@
       </div>
     </section>
     <div class="pb-5">
-      <p class="texto-reservado-footer text-center">© 2024 Fundación Entornasol / teatime.creser@gmail.com /
-        Teléfono-whatsApp: +56992120409
-      </p>
+      <p class="texto-reservado-footer text-center">fundacionentornasol@gmail.com / Teléfono-whatsApp: +56992120409</p>
+      <p class="texto-reservado-footer text-center">Diseño y Desarrollo Web: Pilar García Royo / pilargarciaroyo@gmail.com</p>
+      <p id="fecha" class="texto-reservado-footer text-center"></p>
+      <section class="search-container d-flex justify-content-center mt-5">
+        <input id="searchInput" class="rounded" type="text" placeholder="Buscar palabras...">
+        <button id="clearBtn" class="btn btn-outline-danger clear-btn mx-3" onclick="clearSearch()">Borrar</button>
+        <button class="btn btn-outline-light" onclick="searchText()">Buscar</button>
+      </section>
+      <!-- <button id="backButton" style="display: none;" onclick="goBack()">Volver</button> -->
+      <div id="highlightedContent" class="text-white my-5"></div>
     </div>
   </footer>
 

@@ -200,6 +200,33 @@ footer {
   background-color: #f7f7f7;
 }
 
+#searchInput {
+  width: 400px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.search-container {
+  position: relative;
+  display: flex;
+}
+
+.clear-btn {
+  background-color: transparent;
+  cursor: pointer;
+  color:rgb(239, 94, 171);
+}
+
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+  color: #3b3838;
+}
+
 /* Estilos para tamaños de tablet hacia arriba */
 @media only screen and (min-width: 768px) {
   .portada-movil {
