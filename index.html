@@ -24,7 +24,8 @@
   <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
-<body>
+<body id="buscadorFinal">
+ 
   <header>
     <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
       <div class="container-fluid">
@@ -118,15 +119,6 @@
                 <li><a class="dropdown-item" href="contacto.html#formulario-contacto">Formulario</a></li>
                 <!-- <li><a class="dropdown-item" href="#">Opiniones</a></li> -->
                 <li><a class="dropdown-item" href="contacto.html#mapa-contacto">Ubicación</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="search.html" id="navbarDropdown" role="button"
-                data-bs-toggle="dropdown" aria-expanded="false">
-                Buscador
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="search.html">Buscador</a></li>
               </ul>
             </li>
           </ul>
@@ -424,10 +416,26 @@
       <p class="texto-reservado-footer text-center">Diseño y Desarrollo Web: Pilar García Royo /
         pilargarciaroyo@gmail.com</p>
       <p id="fecha" class="texto-reservado-footer text-center"></p>
+
+      <section class="container py-5">
+        <div class="row">
+          <div class="col-md-12">
+            <form id="searchForm">
+              <div class="input-group">
+                <input type="text" class="form-control rounded" id="searchInput" placeholder="Escribe la palabra que buscas AQUÍ">
+                <button type="submit" class="btn btn-outline-light rounded mx-3">Buscar</button>
+                <button type="button" class="btn btn-secondary rounded ms-3" id="clearSearch">Borrar Destacador</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
      
     </div>
   </footer>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

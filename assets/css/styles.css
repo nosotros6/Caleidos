@@ -252,9 +252,13 @@ button {
   }
 }
 
+.svg-paisaje-servicios {
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
 mark {
-  background-color: #3d90de;
-  color: white;
+  background-color: #ffff00;
 }
 
 /* Estilos para tamaños de pantalla móvil */

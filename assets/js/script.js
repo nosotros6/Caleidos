@@ -20,24 +20,43 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // BUSCADOR 1 CON BOOTSTRAP
-$(document).ready(function() {
-  $("#searchForm").submit(function(event) {
-    event.preventDefault(); // Evita que el formulario se envíe
 
-    var searchText = $("#searchInput").val().trim().toLowerCase();
-    var content = $("#content").html(); // Obtén el contenido HTML
+  $(document).ready(function() {
+    $("#searchForm").submit(function(event) {
+      event.preventDefault(); // Evita que el formulario se envíe
+  
+      var searchText = $("#searchInput").val().trim().toLowerCase();
+      var content = $("#buscadorFinal").text().trim().toLowerCase(); // Obtén el contenido de texto en minúsculas
+  
+      if (searchText !== "") {
+        var regex = new RegExp(searchText, "gi");
+        var matches = content.match(regex); // Busca coincidencias en el contenido de texto
+  
+        if (matches !== null) {
+          var highlightedContent = $("#buscadorFinal").html().replace(regex, "<mark>$&</mark>");
+          $("#buscadorFinal").html(highlightedContent); // Actualiza el contenido con las palabras resaltadas
+        } else {
+          showAlertNoMatches(); // Muestra un mensaje de alerta si no hay coincidencias
+        }
+      } else {
+        showAlertEmptyInput(); // Muestra un mensaje de alerta si el campo de búsqueda está vacío
+      }
+    });
+  
+    $("#clearSearch").click(function() {
+      $("#searchInput").val(""); // Limpia el campo de búsqueda
+      location.reload(); // Recarga la página
 
-    if (searchText !== "") {
-      var regex = new RegExp(searchText, "gi");
-      var highlightedContent = content.replace(regex, "<mark>$&</mark>");
-      $("#content").html(highlightedContent); // Actualiza el contenido con las palabras resaltadas
-    } else {
-      $("#content").html(content); // Restaura el contenido original si no hay texto de búsqueda
+      // $("#buscadorFinal").html($("#buscadorFinal").text()); // ELIMINADO Restaura el contenido original
+    });
+  
+    // Función para mostrar un mensaje de alerta si el campo de búsqueda está vacío
+    function showAlertEmptyInput() {
+      alert("Por favor, ingresa una palabra para buscar.");
+    }
+  
+    // Función para mostrar un mensaje de alerta si no hay coincidencias
+    function showAlertNoMatches() {
+      alert("No se encontraron coincidencias.");
     }
   });
-
-  $("#clearSearch").click(function() {
-    $("#searchInput").val(""); // Limpia el campo de búsqueda
-    location.reload(); // Recarga la página
-  });
-});
